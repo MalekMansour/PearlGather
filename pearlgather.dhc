@@ -1,0 +1,22 @@
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
+<HtmlCompiler>
+  <App>
+    <ID>{E253DBAF-EA64-4309-9137-EE801D0747E1}</ID>
+    <Name>PearlGather</Name>
+    <IndexHtml>pearlgather.html</IndexHtml>
+    <FileVersion>1.0</FileVersion>
+    <Width>1024</Width>
+    <Height>768</Height>
+    <Theme>Glossy</Theme>
+    <IcoPath>..\..\..\Pictures\Camera Roll\pearlgathericon.ico</IcoPath>
+    <OutputWin32>0</OutputWin32>
+    <AllowInstances>1</AllowInstances>
+    <Generator>
+      <Name>DecSoft HTML Compiler</Name>
+      <Website>https://www.decsoftutils.com/</Website>
+      <Orders>https://www.decsoftutils.com/store/</Orders>
+      <EMail>info@decsoftutils.com</EMail>
+      <Copyright>©2023 DecSoft HTML Compiler. All rights reserved.</Copyright>
+    </Generator>
+  </App>
+</HtmlCompiler>
