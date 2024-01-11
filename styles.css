@@ -1,0 +1,103 @@
+header {
+background: rgba(71, 60, 101, 0.467);
+text-align: center;
+margin-top: 0 auto;
+padding-bottom: 25px;
+}
+
+body{
+background-color: #030218;
+}
+
+button {
+height: 103px;width: 103px;
+padding: 0;
+margin-top: 0 auto;
+background: rgb(166, 230, 166);
+border-color: rgba(28, 86, 25, 0.467);
+border-width: 3px;
+}
+
+.gather {
+align-self: auto;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.profile {
+height: 30px;width: 80px;
+background:rgb(166, 230, 166);
+border-radius: 16px;
+margin-left: 20px;
+}
+
+.dorking {
+background: rgba(71, 60, 101, 0.467);
+color: aliceblue;
+}
+
+.blackpearls {
+height: 250px;width:250px
+}
+
+h1 {
+font-size: 72px;font-style: italic;
+color: #030218;
+}
+
+h2 {
+color: #030218;
+}
+
+p {
+font-size: 22px;
+color: #030218;
+}
+footer {
+background: rgba(71, 60, 101, 0.467);
+}
+.links {
+color: #030218;
+font-size: 34px;
+}
+a {
+color: #c90fea;
+font-size: 34px;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+color: #d588e2;
+}
+
+
+
+/* Input Username */
+  #username {
+    width: 10%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: width 0.6s ease-in-out;
+  }
+  
+  #search-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #999;
+    transition: color 0.6s ease-in-out;
+    cursor: pointer;
+  }
+  
+  #username:focus {
+    width: 30%; 
+  }
+  
+  #username:focus + #search-icon {
+    color: #333; 
+  }
+  
