@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PearlGather</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="images/black-pearl-hi.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <header>
+        <h1>PearlGather</h1>
+        <img class="blackpearls" src="images/black-pearl-hi.png" alt=PearlGather>
+        <p>Type the username then press "Comfirm" to unlock the linked accounts.</p>
+        <h2>Enter Username</h2>
+        <form onsubmit="openProfile(); return false;">
+        <input type="text" id="username" placeholder="Enter username">
+        <button class="profile" type="submit">Comfirm</button>
+        </form>
+    </header>
+   
+    <section class="gather">
+        <button onclick="searchGoogle()">Google Search</button>
+        <button onclick="searchDuckDuckGo()">DuckDuckGo</button>
+        <button onclick="openInstagramProfile()">Instagram</button>
+        <button onclick="openFacebookProfile()">Facebook</button>
+        <button onclick="openTwitterProfile()">Twitter</button>
+        <button onclick="openLinkedInProfile()">LinkedIn</button>
+        <button onclick="openSnapchatProfile()">Snapchat</button>
+        <button onclick="openTiktokProfile()">Tiktok</button>
+        <button onclick="openTwitchProfile()">Twitch</button>
+        <button onclick="openYoutubeProfile()">Youtube</button>
+        <button onclick="openPinterestProfile()">Pinterest</button>
+        <button onclick="openVscoProfile()">VSCO</button>
+        <button onclick="openRedditProfile()">Reddit</button>
+        <button onclick="openLineProfile()">Line</button>
+        <button onclick="openGitHubProfile()">Github</button>
+        <button onclick="openTinderProfile()">Tinder</button>
+        <button onclick="openChessProfile()">Chess</button>
+        <button onclick="openSteamProfile()">Steam</button>
+        <button onclick="openSpotifyProfile()">Spotify</button>
+        <button onclick="openSoundcloudProfile()">Soundcloud</button>
+        <button onclick="openKickProfile()">Kick</button>
+        
+        <script>
+        var username;
+        function searchGoogle() {
+            if (username) {
+                var url = "https://www.google.com/search?q=" + username;
+                window.open(url, "_blank");
+            }
+        }
+
+        function openProfile() {
+            username = document.getElementById("username").value;
+        }
+
+        function openTwitterProfile() {
+            if (username) {
+                var url = "https://www.twitter.com/" + username;
+                window.open(url, "_blank");
+            }
+        }
+
+        function openInstagramProfile() {
+            if (username) {
+                var url = "https://www.instagram.com/" + username;
+                window.open(url, "_blank");
+            }
+        }
+
+        function openFacebookProfile() {
+            if (username) {
+                var url = "https://www.facebook.com/" + username;
+                window.open(url, "_blank");
+            }
+        }
+
+        function openLinkedInProfile() {
+            if (username) {
+                var url = "https://www.linkedin.com/in/" + username;
+                window.open(url, "_blank");
+            }
+        }
+
+        function openSnapchatProfile() {
+            if (username) {
+                var url = "https://www.snapchat.com/add/" + username;
+                window.open(url, "_blank");
+            }
+        }
+
+        function openTwitchProfile() {
+            if (username) {
+                var url = "https://www.twitch.tv/" + username;
+                window.open(url, "_blank");
+            }
+        }
+
+        function openPinterestProfile() {
+            if (username) {
+                var url = "https://www.pinterest.com/" + username;
+                window.open(url, "_blank");
+            }
+        }
+
+        function openRedditProfile() {
+            if (username) {
+                var url = "https://www.reddit.com/user/" + username;
+                window.open(url, "_blank");
+            }
+        }
+        function openGitHubProfile() {
+            if (username) {
+                var url = "https://github.com/" + username;
+                window.open(url, "_blank");
+            }
+        }
+
+        function openYoutubeProfile() {
+            if (username) {
+                var url = "https://youtube.com/@" + username;
+                window.open(url, "_blank");
+            }
+        }
+        function openTinderProfile() {
+            if (username) {
+                var url = "https://tinder.com/" + username;
+                window.open(url, "_blank");
+            }
+        }
+        function openTiktokProfile() {
+            if (username) {
+                var url = "https://tiktok.com/@" + username;
+                window.open(url, "_blank");
+            }
+        }
+        function openVscoProfile() {
+            if (username) {
+                var url = "https://vsco.com/" + username;
+                window.open(url, "_blank");
+            }
+        }
+        function openChessProfile() {
+            if (username) {
+                var url = "https://chess.com/member/" + username;
+                window.open(url, "_blank");
+            }
+        }
+        function openSpotifyProfile() {
+            if (username) {
+                var url = "https://open.spotify.com/user/" + username;
+                window.open(url, "_blank");
+            }
+        }
+        function openLineProfile() {
+            if (username) {
+                var url = "https://line.me/ti/p/" + username;
+                window.open(url, "_blank");
+            }
+        }
+        function openSoundcloudProfile() {
+            if (username) {
+                var url = "https://soundcloud.com/" + username;
+                window.open(url, "_blank");
+            }
+        }
+        function openSteamProfile() {
+            if (username) {
+                var url = "https://steamcommunity.com/id/" + username;
+                window.open(url, "_blank");
+            }
+        }
+        function searchDuckDuckGo() {
+            if (username) {
+                var url = "https://duckduckgo.com/" + username;
+                window.open(url, "_blank");
+            }
+        }
+        function openKickProfile() {
+            if (username) {
+                var url = "https://kick.com/" + username;
+                window.open(url, "_blank");
+            }
+        }
+
+    </script>
+    </section>
+</body>
+</html>
