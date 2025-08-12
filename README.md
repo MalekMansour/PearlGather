@@ -3,3 +3,5 @@ Crafted with HTML and DecSoft HTML Compiler, this sophisticated software facilit
 
 # Screenshot
 ![PearlGather Software Application Screenshot](images/sshot-pearlgather.png)
+
+# Author: Malek Mansour
