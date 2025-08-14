@@ -1,0 +1,17 @@
+{
+  "name": "PearlGather",
+  "version": "1.0.0",
+  "description": "PearlGather - OSINT social media username search tool",
+  "main": "Pearlgather/pearlgather.html",
+  "window": {
+    "title": "PearlGather",
+    "icon": "Pearlgather/icon.png",
+    "width": 1280,
+    "height": 800,
+    "resizable": true
+  },
+  "chromium-args": "--enable-features=OverlayScrollbar",
+  "webkit": {
+    "plugin": true
+  }
+}
