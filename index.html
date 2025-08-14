@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PearlGather</title>
+</head>
+<body>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyA4EaVW-E-jRrigpa59sbWe4_KWAsFIzWI",
+    authDomain: "pearlgather.firebaseapp.com",
+    projectId: "pearlgather",
+    storageBucket: "pearlgather.appspot.com",
+    messagingSenderId: "698135896112",
+    appId: "1:698135896112:web:750f5eeb445d190c78cdf5",
+    measurementId: "G-SN1WYHEFM9"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body>
+</html>
